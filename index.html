@@ -1,0 +1,216 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jungle Portfolio - Wild Developer</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-leaf"></i>
+                <span>Portfolio</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="jungle-bg">
+            <div class="leaves"></div>
+            <div class="vines"></div>
+        </div>
+        <div class="hero-content animate__animated animate__fadeInUp">
+            <h1 class="jungle-title">Welcome to my portfolio</h1>
+            <p class="hero-subtitle">Where creativity grows wild and innovation thrives</p>
+            <div class="typing-container">
+                <span class="typed-text"></span>
+                <span class="cursor">&nbsp;</span>
+            </div>
+            <button class="cta-button" onclick="document.getElementById('about').scrollIntoView()">
+                <i class="fas fa-paw"></i> Explore the Jungle
+            </button>
+        </div>
+        <div class="jungle-animals">
+            <div class="animal monkey">🐒</div>
+            <div class="animal parrot">🦜</div>
+            <div class="animal snake">🐍</div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title animate__animated animate__fadeInDown">
+                <i class="fas fa-user-ninja"></i> About Me
+            </h2>
+            <div class="about-content">
+                <div class="about-card animate__animated animate__fadeInLeft">
+                    <div class="explorer-avatar">
+    <img src="Markgwapo.jpeg" alt="My Photo">
+</div>
+
+                    <h3>The Digital Adventurer</h3>
+                    <p>Hello God day! I am Mark Louin Torres i'm 20 years old. I studied at St.Mary's College of Bansalan, taking of Bachelor of Science in Information Technology. Now I am third year student and I've already learn how to code, making system, editing, and etc.</p>
+                    
+                    <div class="skills-jungle">
+                        <h4><i class="fas fa-seedling"></i> Tech Stack Ecosystem</h4>
+                        <div class="skill-trees">
+                            <div class="skill-tree">
+                                <div class="skill-icon">🌲</div>
+                                <span>Frontend Forest</span>
+                                <small>HTML, CSS, JavaScript,</small>
+                            </div>
+                            <div class="skill-tree">
+                                <div class="skill-icon">🌿</div>
+                                <span>Backend Vegetation</span>
+                                <small>Node.js, Python, Databases</small>
+                            </div>
+                            <div class="skill-tree">
+                                <div class="skill-icon">🌺</div>
+                                <span>Design Flowers</span>
+                                <small>UI/UX, Figma, Adobe, Photoshop</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title animate__animated animate__fadeInDown">
+                <i class="fas fa-code-branch"></i> Jungle Creations
+            </h2>
+          <div class="projects-grid">
+    <!-- Project 1 -->
+    <div class="project-card animate__animated animate__fadeInUp">
+        <div class="project-image">
+            <img src="mac1.jpeg" alt="E-Commerce Website" class="project-img">
+        </div>
+        <div class="project-content">
+            <h3>Game&Controller</h3>
+            <p>This is our project in game development. Our game is Defender of Terra and we make a controller to control our game.</p>
+            <div class="project-tech">
+                <span class="tech-tag">Godot</span>
+                <span class="tech-tag">Arduino-ide</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project-card animate__animated animate__fadeInUp">
+        <div class="project-image">
+            <img src="mac2.jpeg" alt="Task Management App" class="project-img">
+        </div>
+        <div class="project-content">
+            <h3>Arduino Project</h3>
+            <p>This is my arduino project. The of this project is avoiding smart car, this project is moving like a car but if there is obstacle in the front, the car is stop and find a way without obstacle. </p>
+            <div class="project-tech">
+                <span class="tech-tag">Arduino IDE</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="project-card animate__animated animate__fadeInUp">
+        <div class="project-image">
+            <img src="mac3.jpg" alt="Data Visualization Dashboard" class="project-img">
+        </div>
+        <div class="project-content">
+            <h3>Banking System</h3>
+            <p>This is my final project in first year, and this mini system is working but without database.</p>
+            <div class="project-tech">
+                <span class="tech-tag">JavaNetbeans</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title animate__animated animate__fadeInDown">
+                <i class="fas fa-paper-plane"></i> Send a Message Through the Canopy
+            </h2>
+            <div class="contact-content">
+                <div class="contact-info animate__animated animate__fadeInLeft">
+                    <h3><i class="fas fa-satellite-dish"></i> Jungle Communication Hub</h3>
+                    <p>Ready to embark on a wild coding adventure together? Let's connect through the digital jungle!</p>
+                    
+                    <div class="contact-methods">
+    <div class="contact-method">
+        <i class="fab fa-facebook-f jungle-icon"></i>
+        <a href="https://www.facebook.com/mark.louin.torres" target="_blank" rel="noopener noreferrer">
+            Mark Louin Torres
+        </a>
+    </div>
+    <div class="contact-method">
+        <i class="fas fa-envelope jungle-icon"></i>
+        <a href="marktorres906@gmail.com">
+            marktorres906@gmail.com
+        </a>
+    </div>
+    <div class="contact-method">
+        <i class="fab fa-instagram jungle-icon"></i>
+        <a href="https://www.instagram.com/makeyy_bonz/" target="_blank" rel="noopener noreferrer">
+            makey_bonz
+        </a>
+    </div>
+    <div class="contact-method">
+        <i class="fab fa-tiktok jungle-icon"></i>
+        <a href="https://www.tiktok.com/@markeyy2004?is_from_webapp=1&sender_device=pc" target="_blank" rel="noopener noreferrer">
+            Makoyy
+        </a>
+    </div>
+</div>
+
+                <form class="contact-form animate__animated animate__fadeInRight">
+                    <div class="form-group">
+                        <input type="text" id="name" required>
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" required>
+                        <label for="email">Your Email</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" required></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <button type="submit" class="submit-btn">
+                        <i class="fas fa-paper-plane"></i>
+                        Send Through the Vines
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Jungle Portfolio. Made with 🌿 and lots of coffee in the digital rainforest.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
