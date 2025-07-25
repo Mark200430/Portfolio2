@@ -112,7 +112,7 @@ document.addEventListener('DOMContentLoaded', function() {
     musicToggle.className = 'music-toggle';
     musicToggle.style.cssText = `
         position: fixed;
-        buttom: 100px;
+        bottom: 100px;
         right: 20px;
         background: linear-gradient(45deg, var(--jungle-primary), var(--jungle-secondary));
         color: white;
